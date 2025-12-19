@@ -1,0 +1,127 @@
+/* Mobile Responsive Utilities */
+
+/* Products Page Mobile */
+@media (max-width: 768px) {
+  .products-controls {
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .category-filters {
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+  
+  .filter-btn {
+    padding: 8px 12px;
+    font-size: 12px;
+  }
+}
+
+/* Cart Page Mobile */
+@media (max-width: 768px) {
+  .cart-item {
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  .cart-item img {
+    width: 80px;
+    height: 80px;
+  }
+  
+  .quantity-controls {
+    justify-content: center;
+    margin: 10px 0;
+  }
+}
+
+/* Checkout Page Mobile */
+@media (max-width: 768px) {
+  .checkout-content {
+    flex-direction: column;
+  }
+  
+  .checkout-form,
+  .order-summary {
+    width: 100%;
+  }
+  
+  .order-summary {
+    order: -1;
+    margin-bottom: 20px;
+  }
+}
+
+/* Admin Dashboard Mobile */
+@media (max-width: 768px) {
+  .admin-tabs {
+    flex-wrap: wrap;
+    gap: 5px;
+  }
+  
+  .tab {
+    flex: 1;
+    min-width: 100px;
+    font-size: 12px;
+    padding: 8px 12px;
+  }
+  
+  .products-table,
+  .orders-table,
+  .users-table {
+    overflow-x: auto;
+  }
+  
+  .products-table table,
+  .orders-table table,
+  .users-table table {
+    min-width: 600px;
+  }
+}
+
+/* Product Card Mobile */
+@media (max-width: 768px) {
+  .product-card {
+    max-width: none;
+  }
+  
+  .product-image img {
+    height: 120px;
+  }
+  
+  .product-name {
+    font-size: 14px;
+  }
+  
+  .product-price {
+    font-size: 16px;
+  }
+  
+  .add-to-cart-btn {
+    padding: 8px 12px;
+    font-size: 12px;
+  }
+}
+
+/* Auth Pages Mobile */
+@media (max-width: 768px) {
+  .signin-card,
+  .signup-card {
+    margin: 20px;
+    padding: 20px;
+  }
+  
+  .brand-name {
+    font-size: 1.8rem;
+  }
+  
+  .form-row {
+    flex-direction: column;
+  }
+  
+  .social-signin {
+    flex-direction: column;
+    gap: 10px;
+  }
+}

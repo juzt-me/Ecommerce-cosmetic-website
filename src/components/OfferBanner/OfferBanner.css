@@ -1,0 +1,62 @@
+.offer-banner {
+  background: linear-gradient(135deg, #b76e79 0%, #8b5a6b 100%);
+  color: white;
+  padding: 0.75rem 0;
+  position: relative;
+  z-index: 100;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.1);
+}
+
+.offer-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  position: relative;
+}
+
+.offer-text {
+  font-size: 0.95rem;
+  text-align: center;
+  font-weight: 500;
+}
+
+.offer-text strong {
+  background: rgba(255, 255, 255, 0.25);
+  padding: 0.3rem 0.6rem;
+  border-radius: 6px;
+  font-weight: 700;
+  margin: 0 0.2rem;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.close-banner {
+  position: absolute;
+  right: 0;
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  color: white;
+  font-size: 1.2rem;
+  cursor: pointer;
+  padding: 0.3rem 0.6rem;
+  line-height: 1;
+  border-radius: 4px;
+  transition: all 0.3s ease;
+}
+
+.close-banner:hover {
+  background: rgba(255, 255, 255, 0.2);
+  transform: scale(1.1);
+}
+
+@media (max-width: 768px) {
+  .offer-text {
+    font-size: 0.85rem;
+    padding-right: 3rem;
+  }
+  
+  .offer-text strong {
+    display: inline-block;
+    margin: 0.1rem;
+  }
+}
